@@ -2,12 +2,17 @@ package greedy;
 
 import java.util.Arrays;
 
+/**
+ * 
+ * 큰 수의 법칙
+ * 
+ */
 public class Greedy02 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(new int[]{2,4,5,4,6}, 8, 3));
-        System.out.println(solution(new int[]{3,4,3,4,3}, 7, 2));
+        System.out.println(solution(new int[]{2,4,5,4,6}, 8, 3)); // 46
+        System.out.println(solution(new int[]{3,4,3,4,3}, 7, 2)); // 28
 
     }
 
